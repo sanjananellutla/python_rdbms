@@ -4,12 +4,12 @@ The database used for this project is Luis Rocha’s Chinook Database(https://gi
 
 Implemented the following functions in Python:
 	select(relation, predicate)
-		The predicate for select() is a function that takes a single namedtuple as an argument 		and returns True or False.
+		The predicate for select() is a function that takes a single namedtuple as an argument and returns True or False.
 
 	project(relation, columns)
 
 	rename(relation, new_columns=None, new_relation=None)
-		The new_columns and new_relation parameters to rename() are optional. if neither 				argument is provided, return the original relation.
+		The new_columns and new_relation parameters to rename() are optional. if neither argument is provided, return the original relation.
 
 	cross(relation1, relation2)
 
